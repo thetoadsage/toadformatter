@@ -14,6 +14,12 @@ Check the preview, then save your configuration. Import this file through the fo
 
 To pick up later changes, import the same URL again.
 
+## Example screenshot
+
+Total Recall showing the compact movie title, resolution/ranking row, and detailed or aggregate audio summaries.
+
+![Total Recall stream cards with Toadformatter](docs/images/total-recall.png)
+
 ## What it shows
 
 - Title and year in the stream name, using 🎬 for the title.
