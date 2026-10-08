@@ -38,6 +38,8 @@ The English subtitle row is hidden for English originals and when the original l
 
 Chapters and runtime are omitted to keep stream cards concise. Stream-wide Atmos/DTS:X badges are omitted from detailed audio summaries because they cannot identify which displayed track carries the feature.
 
+Titles prefer the requested movie/show catalog title, preserving punctuation and capitalization. If unavailable, the filename-derived title is used. The existing 45-character title limit remains.
+
 ## Files
 
 - `formatter.json`: importable name and description templates.
