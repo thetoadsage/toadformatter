@@ -16,8 +16,8 @@ To pick up later changes, import the same URL again.
 
 ## What it shows
 
-- Title and year in the stream name, followed by season/episode details when available, using 🎬 for the title and 🍂 for the season, with a dot before the episode (for example, `🍂 S02 · E03`).
-- Resolution and release ranking on the first description row, using the existing resolution emojis. Moon scores are omitted.
+- Title and year in the stream name, using 🎬 for the title.
+- Resolution, season/episode details when available, and release ranking on the first description row (for example, `🔥4K UHD 🍂 S02 · E03 🎚️ Web T1`). Moon scores are omitted.
 - Release quality and video format on the next description row, with visual tags separated by ` · ` (for example, `DV · HDR10+`).
 - Library status appears once as 📌 Library on the service/addon row.
 - One original-language audio track and one English audio track, with codec and channels when available.
