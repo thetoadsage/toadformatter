@@ -19,7 +19,7 @@ To pick up later changes, import the same URL again.
 - Resolution and score in the stream name.
 - Title, year, release quality, video format and container.
 - One original-language audio track and one English audio track, with codec and channels when available.
-- English subtitle availability, forced subtitles, and SDH/CC when known.
+- English subtitle availability, forced subtitles, and SDH/CC when known, shown only for titles with a known non-English original language.
 - Size, bitrate, release group, service/addon, and relevant release/status information.
 
 Example audio summary:
@@ -31,6 +31,8 @@ Example audio summary:
 Audio entries use the first matching track in source order, not a quality ranking. Commentary tracks are excluded. English originals appear once. Other mixes and codecs are intentionally omitted, without an ellipsis.
 
 Original audio is identified using the title's original-language metadata or an explicit original-track flag. If both are missing, the formatter does not guess. When track details are absent, a short aggregate audio/language summary is used instead. Filename-derived language hints can include subtitle-only languages.
+
+The English subtitle row is hidden for English originals and when the original language is unknown.
 
 Chapters and runtime are omitted to keep stream cards concise. Stream-wide Atmos/DTS:X badges are omitted from detailed audio summaries because they cannot identify which displayed track carries the feature.
 
