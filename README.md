@@ -14,11 +14,19 @@ Check the preview, then save your configuration. Import this file through the fo
 
 To pick up later changes, import the same URL again.
 
-## Example screenshot
+## Example screenshots
+
+### Movie
 
 Total Recall showing the compact movie title, resolution/ranking row, and detailed or aggregate audio summaries.
 
 ![Total Recall stream cards with Toadformatter](docs/images/total-recall.png)
+
+### TV show
+
+It's Always Sunny in Philadelphia showing season and episode after the resolution on the first description row.
+
+![It's Always Sunny in Philadelphia stream cards with season and episode details](docs/images/always-sunny.png)
 
 ## What it shows
 
