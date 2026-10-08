@@ -32,7 +32,7 @@ Example audio summary:
 
 Audio entries use the first matching track in source order, not a quality ranking. Commentary tracks are excluded. English originals appear once. Other mixes and codecs are intentionally omitted, without an ellipsis.
 
-Original audio is identified using the title's original-language metadata or an explicit original-track flag. If both are missing, the formatter does not guess. When track details are absent, a short aggregate summary uses the same headphones icon and puts languages first, for example `🎧 EN Atmos · TrueHD`. These remain release-level format tags and language hints, rather than a verified track pairing. Filename-derived language hints can include subtitle-only languages.
+Original audio is identified using the title's original-language metadata or an explicit original-track flag. If both are missing, the formatter does not guess. When track details are absent, a short aggregate audio/language summary is used instead. Filename-derived language hints can include subtitle-only languages.
 
 The English subtitle row is hidden for English originals and when the original language is unknown.
 
