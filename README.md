@@ -18,7 +18,8 @@ To pick up later changes, import the same URL again.
 
 - Title and year in the stream name, followed by season/episode details when available, using the existing 🎬 / 🍂 / 🎞️ emojis.
 - Resolution and release ranking on the first description row, using the existing resolution emojis. Moon scores are omitted.
-- Release quality and video format on the next description row.
+- Release quality and video format on the next description row, with visual tags separated by ` · ` (for example, `DV · HDR10+`).
+- Library status appears once as 📌 Library on the service/addon row.
 - One original-language audio track and one English audio track, with codec and channels when available.
 - English subtitle availability, forced subtitles, and SDH/CC when known, shown only for titles with a known non-English original language.
 - Size, bitrate, release group, service/addon, and relevant release/status information.
