@@ -30,11 +30,11 @@ Example audio summary:
 🎧 JA TrueHD 7.1 · EN TrueHD 5.1
 ```
 
-Audio entries prefer a matching default track, then the first matching track in source order. This is not a quality ranking. Commentary and flagged audio-description tracks are excluded. English originals appear once. Other mixes and codecs are intentionally omitted, without an ellipsis.
+Audio entries prefer a matching default track, then the first matching track in source order. This is not a quality ranking. Commentary and audio-description tracks are excluded using flags and specific track-title phrases. Original-track selection filters before rendering; explicit original flags resolve ties between eligible candidates, after default-track preference. English originals appear once. Other mixes and codecs are intentionally omitted, without an ellipsis.
 
 Original audio is identified using the title's original-language metadata or an explicit original-track flag. If both are missing, the formatter does not guess. When track details are absent, a short aggregate audio/language summary is used instead. Filename-derived language hints can include subtitle-only languages.
 
-The English subtitle row is hidden for English originals and when the original language is unknown.
+The English subtitle row is hidden for English originals and when the original language is unknown. SDH/CC detection also recognizes exact CC titles and Closed Caption title phrases. Empty video, audio, subtitle, release, and message rows are removed. Other status text, including Download messages, is preserved.
 
 Chapters and runtime are omitted to keep stream cards concise. Stream-wide Atmos/DTS:X badges are omitted from detailed audio summaries because they cannot identify which displayed track carries the feature.
 
@@ -49,7 +49,7 @@ This formatter uses probed-track features documented for AIOStreams v2.35. Use a
 
 ## Verification
 
-Both templates passed the upstream formatter validator. The latest 19 render cases covered audio default selection, commentary/audio-description exclusion, original-language flags, aggregate fallback, catalog-year fallback, cache status, and consistent binary size units. Verify the preview on your installed AIOStreams version before saving.
+Both templates passed the upstream formatter validator. The latest checks passed 19 regression render cases plus 28 new cases for narration title filtering, 130/3,000-track audio stress cases, explicit-original/default tie handling, CC labels, sparse-card row suppression, and intact status messages. Verify the preview on your installed AIOStreams version before saving.
 
 ## Sources
 
