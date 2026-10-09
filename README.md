@@ -12,7 +12,7 @@ Title first, details underneath. For shows, season and episode follow the resolu
 
 ```text
 🎬 Example Show (2026)
-🔥4K 🍂 S02 · E03 🎚️ Web T1
+🔥2160p 🍂 S02 · E03 🎚️ Web T1
 🎥 WEB-DL 📺 DV · HDR10+ 🎞️ HEVC
 🎧 JA TrueHD 7.1 · EN TrueHD 5.1
 💬 EN Subs · Forced
@@ -43,7 +43,7 @@ To update, import it again. An already-imported copy won't pick up repository ch
 | Symbol | Meaning |
 | --- | --- |
 | 🎬 | Movie or show title and year |
-| 🔥 / ✨ / 🚀 / 💿 | 4K / 2K / 1080p / 720p |
+| 🔥 / ✨ / 🚀 / 💿 | 2160p / 1440p / 1080p / 720p |
 | 💩 | 576p / 480p / 360p / 240p / 144p, or unknown resolution |
 | 🍂 | Season and episode |
 | 🎚️ | Release ranking |
