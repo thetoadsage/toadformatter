@@ -13,7 +13,7 @@ Title first, details underneath. For shows, season and episode follow the resolu
 ```text
 🎬 Example Show (2026)
 🔥2160p 🍂 S02 · E03 🎚️ Web T1
-🎥 WEB-DL 📺 DV · HDR10+ 🎞️ HEVC
+🎥 WEB-DL 📺 DV · HDR10+
 🎧 JA TrueHD 7.1 · EN TrueHD 5.1
 💬 EN Subs · Forced
 📦 20 GiB 📊 25 Mbps
@@ -50,7 +50,7 @@ To update, import it again. An already-imported copy won't pick up repository ch
 | 🌊 | SeaDex Best/Alternative |
 | 🎥 | Release quality, such as WEB-DL or BluRay REMUX |
 | 📺 | Video format, such as DV or HDR10+ |
-| 🎞️ | Video codec; also used for edition labels on the release row |
+| 🎞️ | Edition labels on the release row |
 | 🎧 | Audio format and channels when available |
 | 🌐 | Language hints when detailed audio tracks are unavailable |
 | 💬 | English subtitles for a known non-English original |
@@ -69,7 +69,7 @@ To update, import it again. An already-imported copy won't pick up repository ch
 - Sizes use binary units, such as **GiB**. When folder size is available, it follows the file size: `📦 6.95 GiB / 211 GiB`.
 - Missing optional details are left out. A missing subtitle row doesn't necessarily mean there are no subtitles.
 
-Moon scores, container labels, chapters, and runtime are omitted to keep cards concise. Library and uncached status appear once on the service/addon row.
+Moon scores, container labels, video encode labels, chapters, and runtime are omitted to keep cards concise. Library and uncached status appear once on the service/addon row.
 
 <details>
 <summary>More about titles, audio, and status handling</summary>
