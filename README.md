@@ -46,7 +46,8 @@ To update, import it again. An already-imported copy won't pick up repository ch
 | 🔥 / ✨ / 🚀 / 💿 | 4K UHD / QHD / FHD / HD |
 | 💩 | Low or unknown resolution |
 | 🍂 | Season and episode |
-| 🎚️ | Release ranking or SeaDex Best/Alternative |
+| 🎚️ | Release ranking |
+| 🌊 | SeaDex Best/Alternative |
 | 🎥 | Release quality, such as WEB-DL or BluRay REMUX |
 | 📺 | Video format, such as DV or HDR10+ |
 | 🎞️ | Video codec; also used for edition labels on the release row |
