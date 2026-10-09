@@ -38,20 +38,6 @@ You can also download the JSON and import the file. Use the formatter's Import b
 
 To update, import it again. An already-imported copy won't pick up repository changes automatically.
 
-## Example screenshots
-
-### Movie
-
-Total Recall showing detailed and aggregate audio summaries.
-
-![Total Recall stream cards with Toadformatter](docs/images/total-recall.png)
-
-### TV show
-
-It's Always Sunny in Philadelphia showing season and episode after the resolution.
-
-![It's Always Sunny in Philadelphia stream cards with season and episode details](docs/images/always-sunny.png)
-
 ## Reading the details
 
 | Symbol | Meaning |
