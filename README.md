@@ -34,6 +34,8 @@ This is a sample preview. Available details, spacing, and wrapping depend on the
 
 3. Preview it, then save your configuration.
 
+Requires AIOStreams **v2.36.0 or later** for per-track audio tags.
+
 You can also download the JSON and import the file. Use the formatter's Import button; this is a formatter definition, not a full configuration template.
 
 To update, import it again. An already-imported copy won't pick up repository changes automatically.
@@ -80,7 +82,7 @@ Audio selection prefers an eligible default track, then the first matching track
 
 Original audio is identified using original-language metadata or an explicit original-track flag. If both are missing, the formatter does not guess. When detailed tracks are unavailable, a short aggregate audio/language summary is used. Filename-derived language hints can include subtitle-only languages.
 
-Stream-wide Atmos/DTS:X badges are omitted from detailed track summaries because they cannot identify which displayed track carries the feature. Other mixes and codecs are intentionally omitted without an ellipsis.
+Detailed audio includes Atmos or DTS:X when reported on the selected track, for example `🎧 EN TrueHD Atmos 7.1`. Tracks with only the older single audio tag retain their codec display. Release-wide tags are not attributed to individual tracks. Other mixes and codecs are intentionally omitted without an ellipsis.
 
 SDH/CC detection recognizes flags, SDH and Closed Caption title phrases, and exact CC titles. Empty optional rows are removed. Other status messages, including Download messages, are preserved.
 
