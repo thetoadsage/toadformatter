@@ -13,7 +13,7 @@ Title first, details underneath. For shows, season and episode follow the resolu
 ```text
 🎬 Example Show (2026)
 🔥2160p 🍂 S02 · E03 🎚️ Web T1
-🎥 WEB-DL 📺 DV · HDR10+
+🎥 WEB-DL 📺 DV · HDR10+ 🧬 HEVC
 🎧 JA TrueHD 7.1 · EN TrueHD 5.1
 💬 EN Subs · Forced
 📦 20 GiB 📊 25 Mbps
@@ -52,6 +52,7 @@ To update, import it again. An already-imported copy won't pick up repository ch
 | 🌊 | SeaDex Best/Alternative |
 | 🎥 | Release quality, such as WEB-DL or BluRay REMUX |
 | 📺 | Video format, such as DV or HDR10+ |
+| 🧬 | Video codec, such as HEVC, AVC, AV1, or VC-1 |
 | 🎞️ | Edition labels on the release row |
 | 🎧 | Audio format and channels when available |
 | 🌐 | Language hints when detailed audio tracks are unavailable |
@@ -71,12 +72,14 @@ To update, import it again. An already-imported copy won't pick up repository ch
 - Sizes use binary units, such as **GiB**. When folder size is available, it follows the file size: `📦 6.95 GiB / 211 GiB`.
 - Missing optional details are left out. A missing subtitle row doesn't necessarily mean there are no subtitles.
 
-Moon scores, container labels, video encode labels, chapters, and runtime are omitted to keep cards concise. Library and uncached status appear once on the service/addon row.
+Moon scores, container labels, chapters, and runtime are omitted to keep cards concise. Library and uncached status appear once on the service/addon row.
 
 <details>
 <summary>More about titles, audio, and status handling</summary>
 
 Titles and years prefer the requested movie/show's catalog metadata, falling back to filename-derived values. Punctuation and capitalization are preserved. Titles are limited to 45 characters; a matching year already at the end of the displayed title is not repeated.
+
+Video codec uses `stream.encode`, which AIOStreams can populate from probed media info or filename parsing. Probed `vc1`, `vc-1`, and `wvc1` normalize to `VC-1`. Missing codec information is omitted; an absent label does not establish playback compatibility. See the [upstream media-info normalization](https://github.com/Viren070/AIOStreams/blob/main/packages/core/src/utils/media-info.ts) and [media-info application](https://github.com/Viren070/AIOStreams/blob/main/packages/core/src/media-info/apply.ts).
 
 Audio selection prefers an eligible default track, then the first matching track in source order. This is not a quality ranking. Commentary and audio-description tracks are excluded using flags and specific track-title phrases. Explicit original-track flags resolve ties after default-track preference.
 
