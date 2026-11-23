@@ -68,6 +68,7 @@ To update, import it again. An already-imported copy won't pick up repository ch
 
 - **EN, JA, etc.** are language codes. Detailed audio shows at most one original-language track and one English track. English originals appear once.
 - **T1, T2, etc.** come from your AIOStreams ranking rules.
+- **IMAX** appears on the video row when both the video and edition metadata report it.
 - **EN Subs**, **Forced**, and **SDH/CC** describe reported English subtitle availability. This row is hidden for English originals and when the original language is unknown.
 - Sizes use binary units, such as **GiB**. When folder size is available, it follows the file size: `📦 6.95 GiB / 211 GiB`.
 - Missing optional details are left out. A missing subtitle row doesn't necessarily mean there are no subtitles.
