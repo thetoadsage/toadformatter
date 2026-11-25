@@ -46,7 +46,8 @@ To update, import it again. An already-imported copy won't pick up repository ch
 | --- | --- |
 | 🎬 | Movie or show title and year |
 | 🔥 / ✨ / 🚀 / 💿 | 2160p / 1440p / 1080p / 720p |
-| 💩 | 576p / 480p / 360p / 240p / 144p, or unknown resolution |
+| 📼 | 576p / 480p / 360p / 240p |
+| 🥔 | 144p or unknown resolution |
 | 🍂 | Season and episode |
 | 🎚️ | Release ranking |
 | 🌊 | SeaDex Best/Alternative |
