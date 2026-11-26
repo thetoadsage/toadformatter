@@ -63,8 +63,6 @@ GROUP · Prime Video
 
 The source row adds `Uncached` when the service explicitly reports that state. Parenthesized language codes such as `(JA / EN)` are aggregate hints shown when detailed tracks are unavailable. Text supplied by addons, including names and other status messages, can still contain emoji.
 
-Usenet ages use hours for releases under a day and days through `364d`. At `365d` the label switches to `1y`, then `1.5y` at `545d` and `2y` at `730d`. Releases at least 10 years old show `+10y`.
-
 ## Reading the details
 
 | Symbol | Meaning |
@@ -97,6 +95,7 @@ Usenet ages use hours for releases under a day and days through `364d`. At `365d
 - **IMAX** appears on the video row when both the video and edition metadata report it.
 - **EN Subs**, **Forced**, and **SDH/CC** describe reported English subtitle availability. This row is hidden for English originals and when the original language is unknown.
 - Sizes use binary units, such as **GiB**. When folder size is available, it follows the file size: `📦 6.95 GiB / 211 GiB`.
+- Both versions show Usenet ages in hours for releases under a day and days through `364d`. At `365d` the label switches to `1y`, then `1.5y` at `545d` and `2y` at `730d`. Releases at least 10 years old show `+10y`.
 - Missing optional details are left out. A missing subtitle row doesn't necessarily mean there are no subtitles.
 
 Moon scores, container labels, chapters, and runtime are omitted to keep cards concise. Library and uncached status appear once on the service/addon row.
