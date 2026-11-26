@@ -40,6 +40,29 @@ You can also download the JSON and import the file. Use the formatter's Import b
 
 To update, import it again. An already-imported copy won't pick up repository changes automatically.
 
+## Emoji-free version
+
+In AIOStreams, select **Formatter → Custom → Import from URL** and paste:
+
+```text
+https://raw.githubusercontent.com/thetoadsage/toadformatter/main/formatter-emoji-free.json
+```
+
+You can also import [formatter-emoji-free.json](formatter-emoji-free.json) from a file or paste [description-emoji-free.txt](description-emoji-free.txt) into the description field.
+
+```text
+Example Show (2026)
+2160p · S02E03 · Web T1
+WEB-DL · DV · HDR10+ · HEVC
+Audio: JA TrueHD 7.1 / EN TrueHD 5.1
+Subs: EN + Forced
+20 GiB · 25 Mbps
+GROUP · Prime Video
+Cached (AIO) · Example addon
+```
+
+This version uses text labels for cache state, source flags, and recognized NZB statuses. Text supplied by addons, including names and other status messages, can still contain emoji.
+
 ## Reading the details
 
 | Symbol | Meaning |
