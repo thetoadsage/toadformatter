@@ -63,7 +63,7 @@ GROUP · Prime Video
 
 The source row adds `Uncached` when the service explicitly reports that state. Parenthesized language codes such as `(JA / EN)` are aggregate hints shown when detailed tracks are unavailable. Text supplied by addons, including names and other status messages, can still contain emoji.
 
-Usenet ages use hours for releases under a day and days through `179d`. At `180d` the label switches to `.5y`, then `1y` at `365d` and `1.5y` at `545d`. The last bucket is `20y+`.
+Usenet ages use hours for releases under a day and days through `364d`. At `365d` the label switches to `1y`, then `1.5y` at `545d` and `2y` at `730d`. Releases at least 10 years old show `+10y`.
 
 ## Reading the details
 
