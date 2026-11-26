@@ -54,14 +54,14 @@ You can also import [formatter-emoji-free.json](formatter-emoji-free.json) from 
 Example Show (2026)
 2160p · S02E03 · Web T1
 WEB-DL · DV · HDR10+ · HEVC
-Audio: JA TrueHD 7.1 / EN TrueHD 5.1
-Subs: EN + Forced
+JA TrueHD 7.1 / EN TrueHD 5.1
+EN subs + forced
 20 GiB · 25 Mbps
 GROUP · Prime Video
-Cached (AIO) · Example addon
+[AIO] Example addon
 ```
 
-This version uses text labels for cache state, source flags, and recognized NZB statuses. Text supplied by addons, including names and other status messages, can still contain emoji.
+The source row adds `Uncached` when the service explicitly reports that state. Parenthesized language codes such as `(JA / EN)` are aggregate hints shown when detailed tracks are unavailable. Text supplied by addons, including names and other status messages, can still contain emoji.
 
 ## Reading the details
 
